@@ -1,3 +1,7 @@
-# spsc_queue
+# lockfree
 
-A simple lockfree spsc queue.  
+Implementing useful lock free data structures
+
+### Currently implemented
+
+- `lockfree::spsc_queue` 
