@@ -1,1 +1,1 @@
-pub mod spsc_queue;
+pub mod bounded_spsc_queue;

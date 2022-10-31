@@ -4,4 +4,4 @@ Implementing useful lock free data structures
 
 ### Currently implemented
 
-- `lockfree::spsc_queue` 
+- `lockfree::bounded_spsc_queue` 

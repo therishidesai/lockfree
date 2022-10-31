@@ -1,9 +1,9 @@
-use lockfree::spsc_queue;
+use lockfree::bounded_spsc_queue;
 
 use std::thread;
 
 fn main() {
-    let (tx, rx) = spsc_queue::new_queue(500);
+    let (tx, rx) = bounded_spsc_queue::new_queue(500);
 
     thread::spawn(move|| {
         for i in 0..100000 {
