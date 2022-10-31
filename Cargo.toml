@@ -1,5 +1,5 @@
 [package]
-name = "spsc_queue"
+name = "lockfree"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,6 +8,6 @@ edition = "2021"
 [dependencies]
 
 [[bin]]
-name = "simple"
-path = "examples/simple.rs"
+name = "simple_spsc_queue"
+path = "examples/simple_spsc_queue.rs"
 doc = false

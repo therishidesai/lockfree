@@ -1,4 +1,4 @@
-use spsc_queue;
+use lockfree::spsc_queue;
 
 use std::thread;
 

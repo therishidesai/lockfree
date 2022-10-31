@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "spsc_queue"
+name = "lockfree"
 version = "0.1.0"
